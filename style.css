@@ -1,0 +1,16 @@
+
+#page-header {
+	background-color: #2c3254;
+}
+
+h1, p{
+	font-family: Times-New-Roman;
+}
+
+.gray_title{
+	color: gray;
+}
+
+.par1{
+	color: #4771cc;
+}
