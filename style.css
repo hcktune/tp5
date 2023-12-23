@@ -14,3 +14,7 @@ h1, p{
 .par1{
 	color: #4771cc;
 }
+#bd{
+   
+    border-top: 2px solid #2c3254;
+}
