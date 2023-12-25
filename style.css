@@ -19,11 +19,6 @@ h1, p{
     border-top: 2px solid #2c3254;
 }
 
-.text-break {
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: break-all;
-  }
   img{
     height: fit-content;
   }
