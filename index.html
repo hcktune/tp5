@@ -6,130 +6,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Twitter Bootstrap</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
 </head>
 <body>
-    
-
     <main class="container-fluid">
-
-    
         <header>
             <div id="page-header">
                 <div class="row">
-                    <div class="col-12  p-5 text-light">
-                        <h1>Tp5: Creation d'un site web avec Bootstrap</h1>
-                        <p class="ml-4 mb-0"><i>Module : </i><b>Architecture/Client serveur</b></p>
+                    <div class="col-12 p-5 text-light">
+                        <h1>Tp5: Création d'un site web avec Bootstrap</h1>
+                        <p class="ml-4 mb-0"><i>Module : </i><b>Architecture/Client-serveur</b></p>
                     </div>
                 </div>
             </div>
-            
-        </header> 
+        </header>
 
-            <!--    576px <= xs -->
-            <!--    576px >= sm -->
-            <!--    768px >= md -->
-            <!--    992px >= lg -->
-            <!--    1200px >= xlg -->
-            <div class="row pt-2">
-                
-                <div  class="col-lg-9">
-                    <!--  Intro Bootstrap -->
-                    <div class="row pt-2">
-                        <img class="col-sm-6" src="img/bootstrap_twitter.jpg" alt="">
-                        <div class="col-md-6">
-                            <h1>C'est quoi Bootstrap</h1>
-                            <p>Bootstrap est une collection d'outils utiles à la création du design (graphisme, animation et interactions avec la page dans le navigateur, etc.) de sites et d'applications web. C'est un ensemble qui contient des codes HTML et CSS, des formulaires, boutons, outils de navigation et autres éléments interactifs, ainsi que des extensions JavaScript en option. C'est l'un des projets les plus populaires sur la plate-forme de gestion de développement GitHub.
-                        </div>
-                    </div>
-
-                    <!--  Options -->
-                    <div class="row pt-4">
-
-                        
-                        <div class="col-xs-12 d-flex col-sm-6 col-md-4 col-lg-4">
-                            <img src="img/blueprint.png" alt="">
-                            <a class="align-top" href="google.com">Reduit le temps de developpement</a>
-                        </div>
-
-                        <div class="col-xs-12 d-flex col-sm-6 col-md-4 col-lg-4">
-                            <img src="img/blueprint.png" alt="">
-                            <a class="align-top" href="google.com">Simplifie la vie de developpeur</a>
-                        </div>
-
-                        <div class="col-xs-12 d-flex col-sm-6 col-md-4 col-lg-4">
-                            <img src="img/blueprint.png" alt="">
-                            <a class="align-top" href="google.com">L'un des plus legers framework CSS</a>
-                        </div>
-
-                        <div class="col-xs-12 d-flex col-sm-6 col-md-4 col-lg-4">
-                            <img src="img/blueprint.png" alt="">
-                            <a class="align-top" href="google.com">L'interface utilisateur est le langage web</a>
-                        </div>
-
-                        <div class="col-xs-12 d-flex col-sm-6 col-md-4 col-lg-4">
-                            <img src="img/blueprint.png" alt="">
-                            <a class="align-top" href="google.com">Framework develope par yohoTeam</a>
-                        </div>
-
-                        <div class="col-xs-12 d-flex col-sm-6 col-md-4 col-lg-4">
-                            <img src="img/blueprint.png" alt="">
-                            <a class="align-top" href="google.com">Framework leger par les calories</a>
-                        </div>
-                       
-
-                         
-
+        <!-- Bootstrap Intro -->
+        <div class="row pt-2">
+            <div class="col-lg-9">
+                <div class="row pt-2">
+                    <img class="col-sm-12 col-md-6" src="img/bootstrap_twitter.jpg" alt="">
+                    <div class="col-md-6">
+                        <h1>C'est quoi Bootstrap</h1>
+                        <p>
+                            Bootstrap est une collection d'outils utiles à la création du design (graphisme, animation et interactions avec la page dans le navigateur, etc.) de sites et d'applications web. C'est un ensemble qui contient des codes HTML et CSS, des formulaires, boutons, outils de navigation et autres éléments interactifs, ainsi que des extensions JavaScript en option. C'est l'un des projets les plus populaires sur la plateforme de gestion de développement GitHub.
+                        </p>
                     </div>
                 </div>
 
+                <!-- Options -->
+                <div class="img-fluid row pt-4">
+                    <div class="d-flex col-sm-6 col-md-4 col-lg-4">
+                        <img class="pb-5" src="img/blueprint.png" alt="">
+                        <a class="align-top pl-3" href="google.com">Réduit le temps de développement</a>
+                    </div>
 
-                <div class="col-lg-3 pt-2">
-                    <h2 class="pl-3">Dernier Cours</h2>
-                    <hr id="bd">
-                    <ul class="list-group-flush p-0 ">
+                    <div class="col-xs-12 d-flex col-sm-6 col-md-4 col-lg-4">
+                        <img class="pb-5" src="img/materialize.png" alt="">
+                        <a class="align-top pl-5" href="google.com">Simplifie la vie du développeur</a>
+                    </div>
 
-                       <ul class="list-unstyled pl-3">
-                            <li class="lh-base text-secondary">Cours 1</li>
-                            <a href="rhel.com">Protocole HTTP</a>
-                       </ul>
+                    <div class="col-xs-12 d-flex col-sm-6 col-md-4 col-lg-4">
+                        <img class="pb-5" src="img/pure.png" alt="">
+                        <a class="align-top pl-5" href="google.com">L'un des plus légers frameworks CSS</a>
+                    </div>
 
-                       <hr>
-                         <ul class="list-unstyled pl-3">
-                            <li class="lh-base text-secondary">Protocole HTTP</li>
-                            <a href="rhel.com">Navigateur Web</a>
-                       </ul>
+                    <div class="col-xs-12 d-flex col-sm-6 col-md-4 col-lg-4">
+                        <img class="pb-5"src="img/semantic.png" alt="">
+                        <a class="align-top pl-5" href="google.com">L'interface utilisateur est le langage web</a>
+                    </div>
 
-                       <hr>
-                        <ul class="list-unstyled pl-3">
-                            <li class="lh-base text-secondary">Cours 2</li>
-                            <a href="rhel.com">Introduction au HTML 5 (Partie 1)</a>
-                       </ul>
-                       <hr>
-                       <ul class="list-unstyled pl-3">
-                            <li class="lh-base text-secondary">Cours 1</li>
-                            <a href="rhel.com">Introduction au HTML 5 (Partie 2)</a>
-                        </ul>
-                        <hr>
-                        <ul class="list-unstyled pl-3">
-                            <li class="lh-base text-secondary">Cours 1</li>
-                            <a href="rhel.com">Feuilles de style CSS (Partie 1)</a>
-                        </ul>
+                    <div class="col-xs-12 d-flex col-sm-6 col-md-4 col-lg-4">
+                        <img class="pb-5"src="img/uikit3.png" alt="">
+                        <a class="align-top pl-5" href="google.com">Framework développé par YohoTeam</a>
+                    </div>
+
+                    <div class="col-xs-12 d-flex col-sm-6 col-md-4 col-lg-4">
+                        <img class="pb-5" src="img/concise-css3.png" alt="">
+                        <a class="align-top pl-5" href="google.com">Framework léger par les calories</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dernier Cours -->
+            <div class="col-lg-3 pt-2">
+                <h2 class="pl-3">Dernier Cours</h2>
+                <hr id="bd">
+                <ul class="list-group-flush p-0">
+                    <ul class="list-unstyled pl-3">
+                        <li class="lh-base text-secondary">Cours 1</li>
+                        <a href="rhel.com">Protocole HTTP</a>
                     </ul>
-                </div>
-                <!--  Dernier Cours -->
-                
+                    <hr>
+                    <ul class="list-unstyled pl-3">
+                        <li class="lh-base text-secondary">Protocole HTTP</li>
+                        <a href="rhel.com">Navigateur Web</a>
+                    </ul>
+                    <hr>
+                    <ul class="list-unstyled pl-3">
+                        <li class="lh-base text-secondary">Cours 2</li>
+                        <a href="rhel.com">Introduction au HTML 5 (Partie 1)</a>
+                    </ul>
+                    <hr>
+                    <ul class="list-unstyled pl-3">
+                        <li class="lh-base text-secondary">Cours 1</li>
+                        <a href="rhel.com">Introduction au HTML 5 (Partie 2)</a>
+                    </ul>
+                    <hr>
+                    <ul class="list-unstyled pl-3">
+                        <li class="lh-base text-secondary">Cours 1</li>
+                        <a href="rhel.com">Feuilles de style CSS (Partie 1)</a>
+                    </ul>
+                </ul>
             </div>
-
-
-                
-             
-            
-          
+        </div>
     </main>
 
-
-    
-   
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
 </body>
 </html>
